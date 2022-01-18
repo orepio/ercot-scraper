@@ -1,4 +1,4 @@
-package io.orep.ercotscraper.tdspesiidextract;
+package io.orep.ercotscraper.report.tdspesiidextract;
 
 import com.opencsv.bean.CsvBindByPosition;
 import lombok.Data;

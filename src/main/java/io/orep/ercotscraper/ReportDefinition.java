@@ -1,12 +1,16 @@
 package io.orep.ercotscraper;
 
-import lombok.Data;
+import lombok.Value;
 
-@Data
+import java.time.LocalDate;
+
+@Value
 public class ReportDefinition {
 
-    private String title;
-
-    private String url;
+    private final int reportTypeId;
+    private final String title;
+    private final String url;
+    private final LocalDate date;
+    private final Format format;
 
 }
